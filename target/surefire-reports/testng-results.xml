@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="28277" started-at="2023-02-20T08:03:23Z" finished-at="2023-02-20T08:03:52Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="28277" started-at="2023-02-20T08:03:23Z" finished-at="2023-02-20T08:03:52Z">
+      <class name="com.qa.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginTest@50a7bc6e]" name="setup" is-config="true" duration-ms="4214" started-at="2023-02-20T08:03:23Z" finished-at="2023-02-20T08:03:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginCredentialsTest()[pri:1, instance:com.qa.tests.LoginTest@50a7bc6e]" name="verifyLoginCredentialsTest" duration-ms="23259" started-at="2023-02-20T08:03:28Z" finished-at="2023-02-20T08:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginCredentialsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginTest@50a7bc6e]" name="tearDown" is-config="true" duration-ms="688" started-at="2023-02-20T08:03:51Z" finished-at="2023-02-20T08:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
